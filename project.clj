@@ -10,7 +10,7 @@
                         :db-uri "datomic:free://localhost:4334/my-db"}}}
   :dependencies [[org.clojure/clojure "1.5.1"]
                  [org.clojure/clojure-contrib "1.2.0"]
-                 [com.h2database/h2 "1.0.60"]
+                 [com.h2database/h2 "1.3.174"]
                  [commons-codec "1.7"]
                  [org.clojure/data.json "0.2.3"]
                  [org.clojure/math.combinatorics "0.0.7"]

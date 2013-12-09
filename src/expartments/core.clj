@@ -31,6 +31,7 @@
   (d/transact (d/connect db-url) (s/build-parts d/tempid))
   (d/transact (d/connect db-url) (s/build-schema d/tempid)))
 
+(-main)
 (d/transact (d/connect db-url) [{:housing/name "Foo"
                                  :db/id (d/tempid :db.part/user)
                                  :housing/address "East 1"
